@@ -43,7 +43,7 @@
       border-radius: 25px;
       text-decoration: none;
       display: inline-block;
-      margin-top: 1.5rem;
+      margin-top: 0.0rem; /* Reduced from 1.5rem to 0.5rem to move button higher */
       transition: background-color 0.3s ease;
     }
     .cta-button:hover {
@@ -110,13 +110,17 @@
       font-size: 1.2rem;
       margin-top: 0.5rem;
     }
+    /* Blue font for Get Involved section */
+    .get-involved-section {
+      color: #1565c0;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Donate-a-Meal to Needy Elderly</h1>
+    <img src="DonateHeader.png" alt="Donate-a-Meal Website Header" style="max-width: 600px; height: auto; display: block; margin: 0 auto 0.5rem auto;">
     <p class="highlight">$5 = 1 hot meal for a senior. Dignity. Nutrition. Community.</p>
-    <a href="https://www.donateameal.sg" class="cta-button">Donate Now</a>
+    <a href="Donate.html" class="cta-button">Donate Now</a>
   </header>
 
   <section>
@@ -129,6 +133,7 @@
 
   <section>
     <h2>Our Team</h2>
+    <img src="Cat.png" alt="Donate-a-Meal Team Image" style="max-width: 200px; display: block; margin: 0 auto 1.5rem auto; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <div class="team">
       <div class="team-member">SC – Strategy & Partnerships</div>
       <div class="team-member">SF – Community Engagement</div>
@@ -154,7 +159,7 @@
     </div>
   </section>
 
-  <section>
+  <section class="get-involved-section">
     <h2>Get Involved</h2>
     <p>
       Whether you're a donor, corporate partner, volunteer or vendor — you can make a difference.
